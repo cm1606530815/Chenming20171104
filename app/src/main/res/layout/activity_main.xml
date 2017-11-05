@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qizu.chenming20171104.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#645959">
+        <TextView
+            android:id="@+id/title"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="那些花儿"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:onClick="haha"/>
+    </LinearLayout>
+    <com.qizu.chenming20171104.CircleProgress
+        android:id="@+id/circle"
+        android:layout_width="match_parent"
+        android:layout_height="440dp" />
+
+    <Button
+        android:id="@+id/saomiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="扫描二维码"
+        android:textSize="25dp"
+        android:background="#2b6c47"
+        android:onClick="scan"/>
+    <TextView
+        android:id="@+id/tv_ruselt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp" />
+
+
+</LinearLayout>
